@@ -1,0 +1,390 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_provider_details.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_provider_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable-mdpi_splash.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-pngs-50:\\drawable-mdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_item_fav_fab_bg.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\item_fav_fab_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_splash_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\splash_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_nav_shop.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_nav_shop.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_play_btn.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\play_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_nav_home.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_nav_home.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_nav_fav.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_nav_fav.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable-ldpi_splash.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-pngs-50:\\drawable-ldpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_eye_off.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_eye_off.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable-anydpi-v24_splash.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-pngs-50:\\drawable-anydpi-v24\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_eye_on.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_eye_on.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_module_details.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_module_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\navigation_main_bottom_nav_graph.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\navigation\\main_bottom_nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_item_feature_tag_bg.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\item_feature_tag_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_fb_logo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_fb_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\navigation_auth_nav_graph.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\navigation\\auth_nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_layout_double_card_layout.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\layout_double_card_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_fragment_product_details.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\fragment_product_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_layout_bookings_item.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\layout_bookings_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_layout_otp_six_digits.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\layout_otp_six_digits.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_product_item_design.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\product_item_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_fragment_chat.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_details.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\details.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\raw_vid_3.mp4.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\raw\\vid_3.mp4"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable-xhdpi_splash.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-pngs-50:\\drawable-xhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_theme_back.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_theme_back.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_play_button.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\play_button.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_nav_cart.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_nav_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable-hdpi_splash.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-pngs-50:\\drawable-hdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_fragment_shop.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\fragment_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_fav_filled.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_fav_filled.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_dialog_full_screen_video.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\dialog_full_screen_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_item_onboarding.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\item_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\raw_vid_2.mp4.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\raw\\vid_2.mp4"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_add_border.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\add_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_nav_profile.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_nav_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_call.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_bookings.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_bookings.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_add_border_70.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\add_border_70.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_your_thumbnail_image.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\your_thumbnail_image.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_send.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\send.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_dummy_image.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\dummy_image.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_module.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\module.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_add_fab.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_add_fab.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_double_layer_frame.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\double_layer_frame.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\raw_vid_1.mp4.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\raw\\vid_1.mp4"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_google_logo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_google_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_on_boarding.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_on_boarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_user.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_fav_unfilled.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_fav_unfilled.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_general_toolbar.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\general_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_chat_list__layout_item.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\chat_list__layout_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_providers.jpg.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\providers.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_message_item.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\message_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_back_theme.jpeg.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\back_theme.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\menu_main_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\menu\\main_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_twitter_logo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_twitter_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_module_selection_dialog.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\module_selection_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_bg_bottom_sheet_design.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\bg_bottom_sheet_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_ic_chat_fab.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\ic_chat_fab.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_fragment_new_item.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\fragment_new_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable_splash.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\drawable\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\font_bungee_shade.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\font\\bungee_shade.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable-xxhdpi_splash.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-pngs-50:\\drawable-xxhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\drawable-xxxhdpi_splash.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-pngs-50:\\drawable-xxxhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-merged_res-55:\\layout_activity_login_signup.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.android.doctorapp-main-57:\\layout\\activity_login_signup.xml"
+    }
+]

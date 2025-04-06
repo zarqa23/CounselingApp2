@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appTheme_light_blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginVertical="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Field Expert"
+            android:textSize="16sp"
+            android:textColor="@color/textview_primary"
+            android:background="@drawable/add_border"
+            android:backgroundTint="@color/appTheme_blue"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/opt2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Business Coach"
+            android:textSize="16sp"
+            android:textColor="@color/textview_primary"
+            android:background="@drawable/add_border"
+            android:backgroundTint="@color/appTheme_blue"
+            android:padding="5dp"
+            android:layout_marginVertical="14dp"
+            />
+        <TextView
+            android:id="@+id/opt3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Career Counselor"
+            android:textSize="16sp"
+            android:textColor="@color/textview_primary"
+            android:background="@drawable/add_border"
+            android:backgroundTint="@color/appTheme_blue"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

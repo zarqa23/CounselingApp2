@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mapp It</string>
+    <!--    Main bottom nav menu items-->
+    <string name="nav_home">Home</string>
+    <string name="nav_shop">Chat</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="default_web_client_id">45644848047-tvahp4cgjnucnoi3g0fj9e4pjkd8b6ht.apps.googleusercontent.com</string>
+</resources>

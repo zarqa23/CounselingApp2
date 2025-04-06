@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                              
+                                                       
+     
+
+    <!--<data>
+        <variable
+            name="user"
+            type="com.app.chef.features.auth.domain.model.AuthUserModel" />
+
+        &lt;!&ndash; iModule is "counselor", "expert", "coach" &ndash;&gt;
+    </data>-->
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical"
+         android:tag="layout/activity_edit_profile_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:background="@drawable/bg_bottom_sheet_design"
+            android:paddingTop="15dp"
+            >
+            <!--android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="80dp"-->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                >
+
+                <LinearLayout
+                    android:id="@+id/contentArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|start"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="25dp"
+                        >
+                        <ImageView
+                            android:id="@+id/backImgView"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_arrow_back"
+                            app:tint="@color/appTheme_accent"
+                            />
+                        <TextView
+                            android:id="@+id/titleTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:text="Edit Details"
+                            android:paddingVertical="4dp"
+                            android:layout_marginStart="50dp"
+                            android:textColor="@color/textview_accent"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/imageArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal|center_vertical"
+                        >
+                        <TextView
+                            android:id="@+id/tv_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Name"
+                            android:visibility="gone"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:cardCornerRadius="100dp"
+                            >
+                            <ImageView
+                                android:id="@+id/iv_image"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/user"
+
+                                />
+                        </androidx.cardview.widget.CardView>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/field1Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/field1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Name"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <EditText
+                                android:id="@+id/et_field1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:hint="Your name here"
+                                android:letterSpacing="0.05"
+                                android:inputType="text"
+                                android:textColorHint="@color/edittext_hint"
+                                android:maxLines="1"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                android:textColor="@color/edittext_text"
+                                />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/field2Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/field2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Email"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <EditText
+                                android:id="@+id/et_field2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:hint="example@email.com"
+                                android:letterSpacing="0.05"
+                                android:enabled="false"
+                                android:inputType="textEmailAddress"
+                                android:textColorHint="@color/edittext_hint"
+                                android:maxLines="1"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                android:textColor="@color/edittext_hint"
+                                />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/field3Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible"
+                        >
+                        <TextView
+                            android:id="@+id/field3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Phone"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <EditText
+                                android:id="@+id/et_field3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:hint="+923*********"
+                                android:letterSpacing="0.2"
+                                android:inputType="phone"
+                                android:textColorHint="@color/edittext_hint"
+                                android:maxLines="1"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                android:textColor="@color/edittext_text"
+                                />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/field4Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/field4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Date of birth"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <TextView
+                                android:id="@+id/et_field4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:hint="2001-10-23"
+                                android:letterSpacing="0.2"
+                                android:textColorHint="@color/edittext_hint"
+                                android:maxLines="1"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                android:textColor="@color/edittext_text"
+                                />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/genderHTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Gender"
+                        android:textAllCaps="true"
+                        android:layout_marginBottom="4dp"
+                        android:textColor="@color/textview_secondary_dark"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/operationArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <CheckBox
+                            android:id="@+id/checkboxMale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:text="Male"
+                            android:textAllCaps="false"
+                            android:textColor="@color/textview_accent"
+                            android:buttonTint="@color/edittext_hint"
+                            />
+                        <CheckBox
+                            android:id="@+id/checkboxFemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:text="Female"
+                            android:textAllCaps="false"
+                            android:textColor="@color/textview_accent"
+                            android:buttonTint="@color/edittext_hint"
+                            />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_type1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:maxLines="1"
+                        android:text="Save"
+                        android:textColor="@color/textview_secondary_light"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textAlignment="center"
+                        android:background="@drawable/add_border"
+                        android:backgroundTint="@color/appTheme_primary"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:paddingHorizontal="14dp"
+                        android:paddingVertical="16dp"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="4dp"
+                        />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+         

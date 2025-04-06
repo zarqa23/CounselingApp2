@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="teal_200">#D1F3F7</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8692f7</color>
+
+    <!--    for backgrounds-->
+    <color name="appTheme_secondary_dark">#222222</color>
+    <color name="appTheme_secondary_light">#F9F9F9</color>
+
+    <!--    theme colors-->
+    <color name="appTheme_primary">#00BFFF</color>
+    <color name="appTheme_primary_light">#50C878</color>
+    <color name="appTheme_accent_med">#1B263B</color>
+    <color name="appTheme_accent_light">#FF6F61</color>
+    <color name="appTheme_accent">#F5F5F5</color>
+
+    <color name="textview_primary">@color/appTheme_primary</color>
+    <color name="textview_primary_light">@color/appTheme_primary_light</color>
+    <color name="textview_secondary_light">@color/white</color>
+    <color name="textview_secondary_dark">@color/black</color>
+    <color name="textview_accent_light">#F0F5FA</color>
+    <color name="textview_accent_medium">#B4B9CA</color>
+    <color name="textview_accent_dark">#A0A5BA</color>
+    <color name="textview_accent">#121223</color>
+
+    <color name="edittext_hint">#A0A5BA</color>
+    <color name="edittext_text">#32343E</color>
+    <color name="edittext_back">#F0F5FA</color>
+    <color name="edittext_ic_eye">#B4B9CA</color>
+
+
+    <!--    sales | new | hot offer-->
+    <color name="appTheme_events">#FF680C</color>
+
+    <!--    actions error/success-->
+    <color name="appTheme_error">#F01F0E</color>
+    <color name="appTheme_success">#2AA952</color>
+
+<!--    unused till now -->
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="appTheme_gray_txt">#A0A5BA</color>
+    <color name="appTheme_blue">#BEEBFF</color>
+    <color name="appTheme_light_blue">#F0F5FA</color>
+
+
+
+
+
+
+
+    <color name="app_themeColor_yellow">#FDA43C</color>
+    <color name="app_themeColor_white">#E4E4E3</color>
+    <color name="app_themeColor_blue">#000080</color>
+    <color name="app_themeColor_orange">#CF8631</color>
+
+
+    <color name="app_themeColor_1">#4D4C4C</color>
+    <!--    <color name="app_themeColor_1">#2C2C2C</color>-->
+    <color name="app_themeColor_2">#2B2B2B</color>
+    <color name="app_themeColor_2Txt">#FDA43C</color>
+    <!--    <color name="app_themeColor_2Txt">#DD9F57</color>-->
+    <color name="app_themeColor_3">#FDA43C</color>
+    <color name="app_themeColor_4Txt">#FDA43C</color>
+    <!--    <color name="app_themeColor_4">#4D4C4C</color>-->
+    <color name="app_themeColor_4">#2C2C2C</color>
+    <color name="app_themeColor_700">#393939</color>
+    <color name="app_themeColor_500">#515151</color>
+    <color name="app_themeColor_400">#696262</color>
+    <color name="app_themeColor_300">#AEADAD</color>
+    <color name="app_themeColor_200">#D5D5D5</color>
+
+</resources>

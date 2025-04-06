@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                              
+                                                       
+     
+
+    <!--<data>
+        <variable
+            name="user"
+            type="com.app.chef.features.auth.domain.model.AuthUserModel" />
+
+        &lt;!&ndash; iModule is "counselor", "expert", "coach" &ndash;&gt;
+    </data>-->
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical"
+         android:tag="layout/activity_module_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:background="@drawable/bg_bottom_sheet_design"
+            android:paddingTop="15dp"
+            >
+            <!--android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="80dp"-->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                >
+
+                <LinearLayout
+                    android:id="@+id/contentArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|start"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="25dp"
+                        >
+                        <ImageView
+                            android:id="@+id/backImgView"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_arrow_back"
+                            app:tint="@color/appTheme_accent"
+                            />
+                        <TextView
+                            android:id="@+id/titleTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:text="Module Details"
+                            android:paddingVertical="4dp"
+                            android:layout_marginStart="50dp"
+                            android:textColor="@color/textview_accent"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/field1Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/field1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Qualifications"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <EditText
+                                android:id="@+id/et_field1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:hint="Your latest qualifications"
+                                android:letterSpacing="0.05"
+                                android:inputType="text"
+                                android:textColorHint="@color/edittext_hint"
+                                android:maxLines="1"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                android:textColor="@color/edittext_text"
+                                />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/field2Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/field2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Specialization"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <EditText
+                                android:id="@+id/et_field2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:hint="Your specialization"
+                                android:letterSpacing="0.05"
+                                android:inputType="text"
+                                android:textColorHint="@color/edittext_hint"
+                                android:maxLines="1"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                android:textColor="@color/edittext_text"
+                                />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/field3Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible"
+                        >
+                        <TextView
+                            android:id="@+id/field3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Appointment charges"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Rs."
+                                    android:textSize="16sp"
+                                    android:layout_marginEnd="40dp"
+                                    android:textColor="@color/edittext_text"
+                                    />
+                                <EditText
+                                    android:id="@+id/et_field3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16sp"
+                                    android:background="@color/edittext_back"
+                                    android:hint="500"
+                                    android:letterSpacing="0.2"
+                                    android:inputType="number"
+                                    android:textColorHint="@color/edittext_hint"
+                                    android:maxLines="1"
+                                    android:textColor="@color/edittext_text"
+                                    />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/field4Area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/field4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Your Module"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="4dp"
+                            android:textColor="@color/textview_secondary_dark"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <TextView
+                                android:id="@+id/et_field4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:hint="Counselor"
+                                android:textStyle="bold"
+                                android:letterSpacing="0.2"
+                                android:enabled="false"
+                                android:textColorHint="@color/edittext_hint"
+                                android:maxLines="1"
+                                android:background="@drawable/add_border"
+                                android:backgroundTint="@color/edittext_back"
+                                android:paddingHorizontal="14dp"
+                                android:paddingVertical="16dp"
+                                android:textColor="@color/edittext_hint"
+                                />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_eye_on"
+                                android:layout_marginEnd="14dp"
+                                android:visibility="gone"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/genderHTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:visibility="gone"
+                        android:text="Gender"
+                        android:textAllCaps="true"
+                        android:layout_marginBottom="4dp"
+                        android:textColor="@color/textview_secondary_dark"
+                        />
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/operationArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <CheckBox
+                            android:id="@+id/checkboxMale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:text="Male"
+                            android:textAllCaps="false"
+                            android:textColor="@color/textview_accent"
+                            android:buttonTint="@color/edittext_hint"
+                            />
+                        <CheckBox
+                            android:id="@+id/checkboxFemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:text="Female"
+                            android:textAllCaps="false"
+                            android:textColor="@color/textview_accent"
+                            android:buttonTint="@color/edittext_hint"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/tv_type1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:text="Save"
+                android:textColor="@color/textview_secondary_light"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:background="@drawable/add_border"
+                android:backgroundTint="@color/appTheme_primary"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="16dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="4dp"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+         

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/providersProfileArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="35dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="8dp"
+        android:padding="0dp"
+        app:cardElevation="0dp"
+        android:visibility="gone"
+        app:cardUseCompatPadding="false"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/appTheme_light_blue"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="5dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:cardCornerRadius="100dp"
+                >
+                <ImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/user"
+                    />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="6dp"
+                >
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Name"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_blue_600"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See updates!"
+                    android:textAllCaps="false"
+                    android:textColor="@color/light_blue_900"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <include
+        android:id="@+id/usersProfileArea"
+        layout="@layout/general_toolbar"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_border_70"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="@color/appTheme_blue"
+        >
+        <TextView
+            android:id="@+id/appointSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Providers"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/textview_secondary_light"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="8dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/add_border_70"
+            android:backgroundTint="@color/appTheme_primary_light"
+            />
+        <TextView
+            android:id="@+id/mediaSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Media"
+            android:textSize="16sp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginEnd="4dp"
+            android:textAlignment="center"
+            android:textColor="@color/textview_secondary_dark"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="8dp"
+            android:background="@drawable/add_border_70"
+            android:backgroundTint="@color/appTheme_blue"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/appointArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/providersRecycView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/noProviders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No providers available"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/mediaArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        >
+        <RelativeLayout
+            android:id="@+id/videoContainer1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/add_border"
+            >
+
+            <VideoView
+                android:id="@+id/videoView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/play"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:padding="50dp"
+                    android:translationZ="10dp"
+                    android:src="@drawable/play_button" />
+                <ImageView
+                    android:id="@+id/videoThumbnail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/your_thumbnail_image" /> <!-- Replace with your thumbnail -->
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/videoContainer2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="16dp"
+            android:background="@drawable/add_border"
+            >
+
+            <VideoView
+                android:id="@+id/videoView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/play2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:padding="50dp"
+                    android:translationZ="10dp"
+                    android:src="@drawable/play_button" />
+                <ImageView
+                    android:id="@+id/videoThumbnail2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/your_thumbnail_image" /> <!-- Replace with your thumbnail -->
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/videoContainer3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/add_border"
+            >
+
+            <VideoView
+                android:id="@+id/videoView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/play3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:padding="50dp"
+                    android:background="@color/transparent"
+                    android:translationZ="10dp"
+                    android:src="@drawable/play_button" />
+                <ImageView
+                    android:id="@+id/videoThumbnail3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/your_thumbnail_image" /> <!-- Replace with your thumbnail -->
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
